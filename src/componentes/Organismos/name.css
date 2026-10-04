@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Cormorant:wght@400;500;600&display=swap');
+
+.hero {
+  width: 100%;
+  position: relative;
+}
+/*parte 1*/
+.hero img {
+  width: 100%;
+  height: 115vh; 
+  object-fit: cover;
+  object-position: 70% center; 
+  display: block;
+}
+
+.hero-texto {
+   font-family: 'Italiana', serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.hero-texto p {
+   font-family: 'Georgia', serif;
+  font-weight: 100;
+  letter-spacing: .5px;
+}
+
+.hero-texto h1 {
+  font-size: 32px;
+  font-family: serif;
+}
+
+.variedad {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.variedad-subtitulo {
+  color: #5C3A2E;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.variedad-titulo {
+  font-size: 28px;
+  color: #2b2b2b;
+}
+
+.variedad-destacado {
+  color: #ff5500;
+}
+
+.variedad-productos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.variedad-productos img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.variedad-productos p {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+/*PARTE 3*/
+.PARTE3 {
+  background-color: #d3b7a6;
+  padding: 40px 20px;
+  text-align: center;
+  
+}
+.LOGO2 {
+  width: 280px; 
+  height: auto;
+  display: block;
+  margin: 120px auto 20px auto;
+}
+
+.variedad-titulo {
+  margin-top: 180px; 
+  text-align: center;
+  position: relative;
+}
+
+.carrusel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 60px;
+}
+
+.carrusel .producto img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.carrusel .producto p {
+  text-align: center;
+  margin-top: 15px;
+   font-family: 'Cormorant', serif;
+  font-weight: 1000;
+  letter-spacing: .3px;
+  font-size: 26px;
+  color: #5C3A2E;
+}
+
+.flecha {
+  background: none;
+  border: none;
+  font-size: 32px;
+  cursor: pointer;
+  color: #5C3A2E;
+}
+
+.parraff{
+   font-family: 'Cormorant', serif;
+  font-weight: 200;
+  letter-spacing: .3px;
+  font-size: 20px;
+}
+
+
+/* PARTE 4*/
+.HISTORIA {
+  background-color: #ffffff;
+  padding: 140px 20px;
+  text-align: center;
+}
+
+.HISTORIA img {
+  width: 95%;
+  height: 65vh; 
+  max-width: 500px; 
+  object-fit: cover;
+  object-position: 50% center; 
+  display: block;
+  margin: 70px auto 16px auto;
+}
+
+
+/**/
+.TTTT{
+   font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #020202;
+  
+}
+/*BOTON LEER MAS*/
+.HIS-boton {
+   font-family: 'Italiana', serif;
+  color: #4a3428;
+  background-color: transparent;
+  border: 1px solid #5C3A2E; 
+  color: #5C3A2E; 
+  padding: 12px 24px;
+  font-family: 'Georgia', serif; 
+  font-size: 13px;
+  letter-spacing: 2px; 
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px; 
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.HIS-boton:hover {
+  background-color: #5C3A2E;
+  color: #fff;
+}
+/* subtitulo 2 DE RECETAS */
+.subtt{ 
+  height:0px;
+  font-size:24px;
+   font-family: 'Italiana', serif;
+  color: #4a3428;
+}
+
+.variedad-destacado{
+ font-family: 'Italiana', serif;
+  color: #4a3428;
+   font-size: 48px;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.recetas img{
+  height: 220px;
+  object-fit: cover;
+  object-position: 50% center; 
+  display: block;
+  margin: 30px auto 16px auto;
+}
+
+.imagen-con-texto {
+  position: relative;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.imagen-con-texto img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.texto-overlay {
+  position: absolute;
+  bottom: 20px;  
+  left: 20px; 
+  z-index: 2;
+  text-align: left;
+}
+
+.texto-overlay {
+  max-width: 35%;
+}
+
+.texto-overlay h2 {
+  color: #291e13;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0;
+  text-shadow: 0 1px 3px rgba(255,255,255,0.6);
+  
+}
+
+/*PARTE 5*/
+.FRASE{
+ background-color: #d44300;
+   font-weight: 900; 
+  font-style: normal;
+  letter-spacing: 1px;
+  padding: 210px 20px;
+  text-align: center;
+}
+
+.signo {
+  font-size: 100px;
+  line-height: 0;
+  color: #000;
+}
+
+.FR2{
+  text-align: right;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.FR{
+  font-family: 'Cormorant', serif;
+  font-weight: 100;
+  letter-spacing: .3px;
+
+}
+/*IMAGEN*/
+.contenedor-imagen {
+  width: 100vw;
+  margin: 0 calc(-50vw + 50%);
+  padding: 0;
+}
+
+.FT1 {
+  width: 100%;
+  height: 100vw;
+  max-height: 600px;
+  object-fit: cover;
+  object-position: 35% center;
+  display: block;
+  margin: 0;
+}
+
+/*PARTE 6*/
+.sub {
+   font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.T1 {
+  font-family: 'Italiana', serif;
+  color: #4a3428;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.FE {
+  font-family: 'Sacramento', cursive;
+  font-size: 54px;
+  text-align: center;
+  margin-top: -30px;
+  line-height: 1;
+  color: #ff5a36;
+}
+
+.texto-OV{
+position: center;
+height: 30%;
+width: 100%;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.images img {
+  width: 200px; 
+  height: auto;
+}
+
+.CH {
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  width: 100%;
+  height: 100%;
+}
+
+
+/*LETRAS*/
+.texto-OV h2 {
+  font-family: 'Georgia', serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #4a3428;
+  text-align: center;
+  margin-top: 0px;  
+}
+
+.sub{
+   font-family: 'Georgia', serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #4a3428;
+  margin-top: 100px;
+  line-height: 0px;
+}
+
+.images2 {
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+}
+
+.images2 img {
+  width: 100%;
+  aspect-ratio: 1 / 1; 
+  object-fit: cover; 
+  display: block; 
+}
+
+/*PARTE7*/
+
+.PT7{
+  background-color: #d3b7a6;
+  padding: 30px 20px;
+}
+
+.LS{
+  color:#3f2719 ;
+  font-size: 20px;
+}
+
+.TU{
+  font-size: 40px;
+  color:#3f2719 ;
+}

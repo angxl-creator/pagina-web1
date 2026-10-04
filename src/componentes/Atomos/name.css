@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.variedad-destacado {
+  color: #ff5500;
+  font-family: cursive ;
+}
+
+.variedad-productos {
+  gap: 15px;
+  margin-top: 30px;
+  overflow-x: auto; 
+}
+
+.logo {
+  width: 180px;
+  right:240px;
+  position: absolute;
+  top: 20px;
+}
